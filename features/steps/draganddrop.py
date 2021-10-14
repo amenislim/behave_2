@@ -18,4 +18,4 @@ def dragndrop(context):
 def step_verif(context):
     #target = context.browser.find_element_by_id("droppable")
     context.dd.drog()
-    assert_equal("Dropp", context.dd.drog.text)
+    assert_equal("Dropped!", context.dd.drog.text)
